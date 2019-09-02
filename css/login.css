@@ -1,0 +1,121 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.login {
+    margin: auto;
+    width: 350px;
+    height: 540px;
+    margin-top: 50px;
+    background-color: #cc252f;
+    position: relative;
+}
+
+.login img {
+    margin-top: 40px;
+    margin-left: 125px;
+    width: 100px;
+    height: 100px;
+}
+
+#titulo {
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    font-family: tahoma, sans-serif;
+    font-size: 3em;
+    letter-spacing: -3px;
+    color: white;
+    font-weight: 500;
+}
+
+.fields {
+    margin: auto;
+    width: 240px;
+    height: 100px;
+}
+
+.fields input {
+    font-size: 1em;
+    width: calc (98% - 48px);
+    height: 46%;
+    padding-left: 48px;
+    margin-top: 2px;
+    border-radius: 5px; 
+    border: 0px;
+}
+
+#email, #pwd{
+   background: url(https://i.stack.imgur.com/VqyJ8.png) #fff no-repeat;
+}
+
+#email{
+   background-position: 10px 12px;
+}
+
+#pwd{
+   background-position: 10px -40px;
+}
+
+.botoes {
+    width: 240px;
+    height: 100px;
+    margin: auto;
+    margin-top: 50px;
+    /*border: 1px solid #fff;*/
+}
+
+.botoes button {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    border-color: white;
+}
+
+#entrar {
+    margin-bottom: 16px;
+    background-color: #cc252f;
+}
+
+#entrarcomfacebook {
+    background-color: #3c5b92;
+}
+
+.rodape {
+    padding-left: 15px;
+    margin: auto;
+    width: 240px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 0.8em;
+    margin-right: 15px;
+    line-height: 40px;
+}
+
+/*Alternativa para mudar a cor do placeholder*/
+
+::-webkit-input-placeholder {
+   color: #cc252f;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #cc252f;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #cc252f;  
+}
+
+:-ms-input-placeholder {  
+   color: #cc252f;  
+}
+
+
